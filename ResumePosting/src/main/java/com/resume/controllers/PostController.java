@@ -8,6 +8,6 @@ public class PostController {
 	
 	@GetMapping("/")
 	public String getMsg() {
-		return "Hello World 1111";
+		return "Hello World";
 	}
 }
