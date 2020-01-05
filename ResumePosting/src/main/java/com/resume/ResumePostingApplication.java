@@ -7,15 +7,12 @@ import org.springframework.web.bind.annotation.RestController;
 
 
 @SpringBootApplication
-@RestController
+
 public class ResumePostingApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(ResumePostingApplication.class, args);
 	}
 
-	@GetMapping("/")
-	public String getMsg() {
-		return "Hello";
-	}
+	
 }
